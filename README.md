@@ -31,7 +31,7 @@ If you wanted to look at the average grades for all the students in the district
 ### Scores by School Spending:
 
 To create a dataframe of school data based on spending I created bins  that would have a relatively equal number of schools in each bin and named them. Then I used the .cut method to divide the per capita spending by my bins. I used the group by method to get the averages for each variable. Then I created and formatted the spending ranges per student dataframe.
-```
+
 
 #### Scores by School Spending: Results
 
@@ -42,7 +42,6 @@ THS is in the middle of per capita spending so the scores very greatly. If they 
 To create a dataframe of school data based on size I created bins  that would have a relatively equal number of schools in each bin and named them. Then I used the .cut method to divide total students for my bins. I used the group by method to get the averages for each variable. Then I created and formatted the dataframe.
 
 #### Scores by School Type: Results
-
 
 If they make up a significant portion of the total count the THS ninth graders in the data have lowered the passing percentage for charter schools.
 
